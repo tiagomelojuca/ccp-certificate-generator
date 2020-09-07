@@ -1,9 +1,7 @@
 {
-  "name": "ccp-certificado-gen",
+  "name": "ccp-certificate-gen",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "dependencies": {
-    "inkscape-cli": "^1.0.4"
-  }
+  "dependencies": {}
 }

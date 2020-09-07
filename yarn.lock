@@ -2,7 +2,3 @@
 # yarn lockfile v1
 
 
-inkscape-cli@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/inkscape-cli/-/inkscape-cli-1.0.4.tgz#9f59f7bdcb970dd8740789ebbf4e9f32e0bf7094"
-  integrity sha512-nieOuiQlLJuyw/r1ZhMyqRcSWspkOWivWsqHDsuyAYMU5WTs46MFDCEfuR+Mm8VMryg4pY+NXy7c8JKvXAhLtg==
