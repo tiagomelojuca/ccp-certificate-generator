@@ -13,11 +13,13 @@ Then, run:<br>
 <br>
 <br>
 ### Output Files in PDF
-Output certificates will be stored in `./out` folder, as SVG files. Since SVG template was made in `Inkscape`, the best choice for converting all files to pdf is using `svg2pdf`, which is an abstraction of inkscape-cli.
+Output certificates will be stored in `./out` folder, as SVG files. Since SVG template was made in `Inkscape`, the best choice for converting all files to pdf is using `svg2pdf`, which is an abstraction of `inkscape-cli` (make sure you've Inkscape installed and the binary is in your PATH).
 
 `npm install -g svg2pdf`<br>
 <br>
 Then, just do the convertion according to your operating system. For example, in an UNIX environment:<br>
 `cd out`<br>
 `svg2pdf . .`<br>
-`rm *.svg`
+`rm *.svg`<br>
+<br>
+That's all.
