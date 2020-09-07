@@ -7,7 +7,7 @@ Just create a new object parsing the SVG template, a text file containing the st
 `const CertificateList = require('./CertificateList');`<br>
 `const list = new CertificateList( 'SourceCertificate.svg', 'testList.txt', 'courseInfo.json' );`<br>
 `list.build()`
-<br>
+<br><br>
 Then, run:<br>
 `node index.js`
 <br>
@@ -15,9 +15,9 @@ Then, run:<br>
 ### Output Files in PDF
 Output certificates will be stored in `./out` folder, as SVG files. Since SVG template was made in `Inkscape`, the best choice for converting all files to pdf is using `svg2pdf`, which is an abstraction of inkscape-cli.
 
-`npm install -g svg2pdf`
+`npm install -g svg2pdf`<br>
 <br>
-Then, just do the convertion according to your operating system. For example, in an UNIX environment:
+Then, just do the convertion according to your operating system. For example, in an UNIX environment:<br>
 `cd out`<br>
 `svg2pdf . .`<br>
 `rm *.svg`
